@@ -1,0 +1,104 @@
+body{
+   
+    background:#282828;
+    background:linear-gradient(-45deg,#51d633,#23D5AB);
+}
+.container{
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    background: black;
+    box-shadow:0 25px 30px rgba(0,0,0,0.5);
+}
+h1{
+    
+    font-family: 'Castoro', serif;
+    color:aliceblue;
+}
+.name{
+    font-family: 'Castoro', serif;
+    color:aliceblue;
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+    color:rgb(8, 225, 230);
+    font-size: 23px;
+    text-align: center;
+}
+.navs
+{
+    text-decoration: none;
+    color:aliceblue;
+    border-radius: 20px;
+   padding: 15px;
+   width: 15px;
+    height: 15px;
+   background:rgb(0,0,0);
+}
+.image{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+    padding:5px 20px 0px 20px;
+}
+.img-box1{
+
+	width: 600px;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 150px 150px;
+	grid-template-columns: 120px 120px;
+    justify-content: center; 
+}
+.img1{
+    padding:5px  ;
+}
+.img1 :hover{
+    width:195px;
+}
+.medi{
+    width:190px;
+}
+.foot{
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    background: rgb(228, 116, 11);
+    text-align: center;
+    color:aliceblue;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.fab
+{
+    display:inline-block;
+    color:black;
+    font-size:35px;
+    padding:5px 5px;
+}
+
+@media only screen and (max-width: 768px)
+{
+    .container{
+        width:280px;
+         margin:auto;
+       
+    }
+    .img-box1{
+        width:220px;
+        display: block;
+        justify-content: center;
+        padding:5px 20px 5px 20px;
+    
+    }
+    .image{
+        width:88%;
+    }
+}
+
+
+
+
+
+
