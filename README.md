@@ -1,2 +1,2 @@
 # My-blog_Task1
-Task1_Practise
+https://sanikaardekar.github.io/My-blog_Task1/
